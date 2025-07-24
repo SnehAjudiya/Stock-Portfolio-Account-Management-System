@@ -4,6 +4,8 @@
 #include <iostream>
 #include <string>
 #include <math.h>
+#include <vector>
+#include <iomanip>
 
 #include "account.h"
 
