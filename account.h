@@ -13,9 +13,7 @@ protected:
 
 public:
     account();
-
     virtual ~account();
-
     void set_balance();
 };
 #endif

@@ -8,11 +8,9 @@
 
 using namespace std;
 
-class bankaccount : public account
-{
-private:
-    double balance;
-
+class bankaccount : 
+public account
+{    
 public:
     bankaccount();
     ~bankaccount();

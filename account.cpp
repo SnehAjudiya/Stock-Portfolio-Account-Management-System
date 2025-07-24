@@ -1,23 +1,17 @@
 #include <iostream>
 #include <string>
-#include <math.h>
-
+#include <cmath>
 #include "account.h"
 
 using namespace std;
 
-account ::account()
-{
+account::account() {
     this->set_balance();
-};
+}
 
-account ::~account(){
+account::~account() {}
 
-};
-
-void account ::set_balance()
-{
-    // Set the initial balance to a default value
+void account::set_balance() {
     balance = 10000.0;
     cout << "Initial balance set to: $" << balance << endl;
-};
+}

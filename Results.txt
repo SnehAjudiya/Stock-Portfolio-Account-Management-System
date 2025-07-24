@@ -1,46 +1,14 @@
-Date and Time: Sun Dec 17 21:31:11 2023
-Total Portfolio Value: $10000
-Date and Time: Sun Dec 17 21:31:21 2023
-Total Portfolio Value: $10041.6
-Date and Time: Sun Dec 17 21:31:33 2023
-Total Portfolio Value: $10227.4
-Date and Time: Sun Dec 17 21:32:13 2023
-Total Portfolio Value: $19346.8
-Date and Time: Sun Dec 17 21:46:27 2023
-Total Portfolio Value: $18534.5
-Date and Time: Sun Dec 17 21:46:37 2023
-Total Portfolio Value: $18605.9
-Date and Time: Sun Dec 17 21:52:36 2023
-Total Portfolio Value: $20810.3
-Date and Time: Sun Dec 17 21:52:47 2023
-Total Portfolio Value: $20899.6
-Date and Time: Sun Dec 17 21:52:57 2023
-Total Portfolio Value: $21185.4
-Date and Time: Sun Dec 17 21:53:07 2023
-Total Portfolio Value: $21404.7
-Date and Time: Sun Dec 17 22:31:08 2023
-Total Portfolio Value: $19128.8
-Date and Time: Sun Dec 17 22:31:25 2023
-Total Portfolio Value: $19771.9
-Date and Time: Sun Dec 17 22:31:36 2023
-Total Portfolio Value: $19771.9
-Date and Time: Sun Dec 17 22:31:51 2023
-Total Portfolio Value: $28306.3
-Date and Time: Sun Dec 17 23:40:06 2023
-Total Portfolio Value: $27068.9
-Date and Time: Sun Dec 17 23:41:30 2023
-Total Portfolio Value: $10119
-Date and Time: Sun Dec 17 23:43:04 2023
-Total Portfolio Value: $10195.5
-Date and Time: Sun Dec 17 23:46:14 2023
-Total Portfolio Value: $16827.6
-Date and Time: Mon Dec 18 09:11:20 2023
-Total Portfolio Value: $17409.5
-Date and Time: Mon Dec 18 09:11:31 2023
-Total Portfolio Value: $17809.9
-Date and Time: Mon Dec 18 09:11:45 2023
-Total Portfolio Value: $17906.1
-Date and Time: Mon Dec 18 09:11:55 2023
-Total Portfolio Value: $17906.1
-Date and Time: Mon Dec 18 09:12:07 2023
-Total Portfolio Value: $17944.8
+Date and Time: Thu Jul 24 12:21:19 2025
+Total Portfolio Value: $11902
+Date and Time: Thu Jul 24 12:21:37 2025
+Total Portfolio Value: $13515.8
+Date and Time: Thu Jul 24 12:21:50 2025
+Total Portfolio Value: $15676
+Date and Time: Thu Jul 24 12:22:08 2025
+Total Portfolio Value: $19176.6
+Date and Time: Thu Jul 24 12:22:15 2025
+Total Portfolio Value: $19176.6
+Date and Time: Thu Jul 24 12:22:41 2025
+Total Portfolio Value: $18531.1
+Date and Time: Thu Jul 24 12:22:51 2025
+Total Portfolio Value: $17090.9

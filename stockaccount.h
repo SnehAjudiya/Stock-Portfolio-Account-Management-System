@@ -11,15 +11,13 @@
 
 using namespace std;
 
-struct PortfolioData
-{
+struct PortfolioData{
     std::string date_time;
     double portfolio_value;
 };
 
 // Define StockNode
-struct StockNode
-{
+struct StockNode{
     std::string symbol;
     int shares;
     double price_per_share;
@@ -29,8 +27,7 @@ struct StockNode
     StockNode(const std::string &sym, int sh, double price);
 };
 
-class stockaccount : public account
-{
+class stockaccount : public account{
 private:
     double cash_balance;
     StockNode *head;
@@ -62,4 +59,5 @@ public:
 
     void export_portfolio_data();
 };
+
 #endif
