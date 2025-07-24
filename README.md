@@ -1,4 +1,4 @@
-# 📈 Stock Portfolio & Bank Account Management System
+# Stock Portfolio & Bank Account Management System
 
 This is a terminal-based C++ project simulating a personal **stock trading system** integrated with a **bank account module**. Users can buy/sell stocks, track portfolio value, view transaction history, and manage bank deposits/withdrawals.
 
