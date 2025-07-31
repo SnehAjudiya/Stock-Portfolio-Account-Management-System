@@ -10,12 +10,12 @@
 
 using namespace std;
 
-StockNode::StockNode(const std::string &sym, int sh, double price)
+StockNode::StockNode(const string &sym, int sh, double price)
     : symbol(sym), shares(sh), price_per_share(price), next(nullptr), prev(nullptr) {}
 
 void details(const string &stock_symbol, double stock_volume, double stock_price);
 
-StockNode *stockaccount::findStock(const std::string &symbol) {
+StockNode *stockaccount::findStock(const string &symbol) {
     StockNode *current = head;
     while (current != nullptr) {
         if (current->symbol == symbol) return current;
@@ -115,7 +115,7 @@ void stockaccount::recordPortfolioValue() {
     PortfolioData data_point;
     data_point.date_time = asctime(ltm);
     if (!data_point.date_time.empty() && data_point.date_time.back() == '\n')
-    data_point.date_time.pop_back(); // removes trailing newline
+        data_point.date_time.pop_back(); // removes trailing newline
     data_point.portfolio_value = totalPortfolioValue;
     portfolio_data_vector.push_back(data_point);
 
@@ -131,7 +131,7 @@ double stockaccount::buy_share() {
     double stock_volume = 0, max_volume = 0, balance = 0, stock_price = 0;
     bool found = false;
 
-    ifstream cash("balance.txt");
+    ifstream cash("Balance.txt");
     if (cash) cash >> balance;
     else balance = 10000;
 
@@ -157,7 +157,7 @@ double stockaccount::buy_share() {
             }
             balance -= stock_price * stock_volume;
             cout << "TRANSACTION IS SUCCESSFUL! " << static_cast<int>(stock_volume) << " " << stock_symbol << endl;
-            ofstream bfile("balance.txt"); bfile << balance;
+            ofstream bfile("Balance.txt"); bfile << balance;
 
             StockNode *existing = findStock(stock_symbol);
             if (existing) existing->shares += stock_volume;
@@ -180,7 +180,8 @@ double stockaccount::buy_share() {
 void details(const string &stock_symbol, double stock_volume, double stock_price) {
     ofstream transaction_history("stock_transaction_history.txt", ios::app);
     time_t now = time(0);
-    char t[9]; strftime(t, sizeof(t), "%H:%M:%S", localtime(&now));
+    char t[9]; 
+    strftime(t, sizeof(t), "%H:%M:%S", localtime(&now));
     transaction_history << "Buy " << stock_symbol << " " << stock_volume << " " << stock_price << " " << (stock_price * stock_volume) << " " << t << "\n";
 }
 
@@ -188,7 +189,7 @@ double stockaccount::sell_share() {
     string company_symbol;
     double stock_volume = 0, min_price = 0, balance = 0, stock_price = 0;
 
-    ifstream cash("balance.txt");
+    ifstream cash("Balance.txt");
     if (cash) cash >> balance;
     else balance = 10000;
 
@@ -238,7 +239,7 @@ double stockaccount::sell_share() {
             ofstream bank("bank_transaction_history.txt", ios::app);
             bank << "Deposit " << (stock_price * stock_volume) << " " << t << "\n";
 
-            ofstream bfile("balance.txt"); bfile << balance;
+            ofstream bfile("Balance.txt"); bfile << balance;
 
             cout << "Transaction is successful! " << static_cast<int>(stock_volume) << " " << company_symbol << endl;
             recordPortfolioValue();

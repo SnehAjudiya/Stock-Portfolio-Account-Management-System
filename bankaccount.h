@@ -8,12 +8,11 @@
 
 using namespace std;
 
-class bankaccount : 
-public account
-{    
+class bankaccount : public account {    
 public:
     bankaccount();
     ~bankaccount();
+    
     void set_balance();
     void view_acc_balance() const;
     void deposit_money();

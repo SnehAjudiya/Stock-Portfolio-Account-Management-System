@@ -16,7 +16,6 @@ struct PortfolioData{
     double portfolio_value;
 };
 
-// Define StockNode
 struct StockNode{
     std::string symbol;
     int shares;
@@ -31,8 +30,6 @@ class stockaccount : public account{
 private:
     double cash_balance;
     StockNode *head;
-    // std::string file_portfolio;    
-    // std::string file_transactions; 
     std::vector<PortfolioData> portfolio_data_vector;
                                    
 public:

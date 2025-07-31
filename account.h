@@ -6,8 +6,7 @@
 
 using namespace std;
 
-class account
-{
+class account{
 protected:
     double balance;
 
